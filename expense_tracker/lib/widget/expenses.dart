@@ -84,7 +84,7 @@ class _ExpensesState extends State<Expenses> {
       mainCOntent = ExpensesList(
           expenses: _registeredExpenses, onRemoveExpense: _removeExepnse);
     }
-
+  
     return Scaffold(
       appBar: AppBar(
         title: const Text('Expense Tracker'),
